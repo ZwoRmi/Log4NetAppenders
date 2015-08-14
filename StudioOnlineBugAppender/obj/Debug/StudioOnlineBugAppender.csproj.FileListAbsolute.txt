@@ -1,0 +1,15 @@
+d:\users\s565168\Documents\Visual Studio 2013\Projects\TqlTool\StudioOnlineBugAppender\bin\Debug\StudioOnlineBugAppender.dll.config
+d:\users\s565168\Documents\Visual Studio 2013\Projects\TqlTool\StudioOnlineBugAppender\bin\Debug\StudioOnlineBugAppender.dll
+d:\users\s565168\Documents\Visual Studio 2013\Projects\TqlTool\StudioOnlineBugAppender\bin\Debug\StudioOnlineBugAppender.pdb
+d:\users\s565168\Documents\Visual Studio 2013\Projects\TqlTool\StudioOnlineBugAppender\bin\Debug\log4net.dll
+d:\users\s565168\Documents\Visual Studio 2013\Projects\TqlTool\StudioOnlineBugAppender\bin\Debug\System.Net.Http.Extensions.dll
+d:\users\s565168\Documents\Visual Studio 2013\Projects\TqlTool\StudioOnlineBugAppender\bin\Debug\System.Net.Http.Primitives.dll
+d:\users\s565168\Documents\Visual Studio 2013\Projects\TqlTool\StudioOnlineBugAppender\bin\Debug\log4net.xml
+d:\users\s565168\Documents\Visual Studio 2013\Projects\TqlTool\StudioOnlineBugAppender\bin\Debug\System.Net.Http.Extensions.xml
+d:\users\s565168\Documents\Visual Studio 2013\Projects\TqlTool\StudioOnlineBugAppender\bin\Debug\System.Net.Http.Primitives.xml
+d:\users\s565168\Documents\Visual Studio 2013\Projects\TqlTool\StudioOnlineBugAppender\obj\Debug\StudioOnlineBugAppender.csproj.App.config
+d:\users\s565168\Documents\Visual Studio 2013\Projects\TqlTool\StudioOnlineBugAppender\obj\Debug\StudioOnlineBugAppender.csprojResolveAssemblyReference.cache
+d:\users\s565168\Documents\Visual Studio 2013\Projects\TqlTool\StudioOnlineBugAppender\obj\Debug\StudioOnlineBugAppender.dll
+d:\users\s565168\Documents\Visual Studio 2013\Projects\TqlTool\StudioOnlineBugAppender\obj\Debug\StudioOnlineBugAppender.pdb
+d:\users\s565168\documents\visual studio 2013\Projects\TqlTool\StudioOnlineBugAppender\bin\Debug\Newtonsoft.Json.dll
+d:\users\s565168\documents\visual studio 2013\Projects\TqlTool\StudioOnlineBugAppender\bin\Debug\Newtonsoft.Json.xml
