@@ -54,7 +54,7 @@ Sample Log4Net.config :
 		<useProxy value ="true"/> <!-- don't set it or use false if you don't want to use a proxy-->
 		<!-- If you want to authenticate in visual studio online with your token -->
 		<vsoAuthenticateWithToken value ="true"/>
-		<vsoToken value ="rgqe65mmrgmqzvotohgnxagejan3cbiouxh23v22h4g5kncykfia"/>
+		<vsoToken value ="token"/>
 		<!-- 
 		If you want to authenticate with your visual studio online account :
 		<vsoAuthenticateWithToken value ="false"/>
