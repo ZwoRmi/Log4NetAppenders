@@ -38,5 +38,46 @@ Sample Log4Net.config :
 	</logger>
 </log4net>
 ```
-
-
+##StudioOnlineBugAppender
+###Motivation
+When you work with visual studio online, you may want to have backlog from your application, in visual studio.
+###Installation
+You have to configure your Log4Net.config with your own settings, and put VisualStudioOnlineBugAppender.dll in the folder where Log4Net.dll is.  
+Sample Log4Net.config :
+```
+<log4net>
+  <!-- Beginning of the VisualStudioOnlineBugAppender configuration-->
+	<appender name="OnlineBug" type="StudioOnlineBugAppender.OnlineBugAppender, StudioOnlineBugAppender">
+		<vsoProject value ="MyProject"/>
+		<vsoAccountName value ="MyAccountName"/>
+		<proxyUrl value ="http://proxy.company:proxyport"/>
+		<useProxy value ="true"/> <!-- don't set it or use false if you don't want to use a proxy-->
+		<!-- If you want to authenticate in visual studio online with your token -->
+		<vsoAuthenticateWithToken value ="true"/>
+		<vsoToken value ="rgqe65mmrgmqzvotohgnxagejan3cbiouxh23v22h4g5kncykfia"/>
+		<!-- 
+		If you want to authenticate with your visual studio online account :
+		<vsoAuthenticateWithToken value ="false"/>
+		<vsoUsername value="username"/>
+		<vsoPassword value="password"/>
+		-->
+		<layout type="log4net.Layout.PatternLayout,log4net">
+			<conversionPattern value="LEVEL: %level %newlineDATE: %date{dd/MM/yyyy HH:mm:ss,fff}  %newlineLOGGER: %logger %newline%newline%message" />
+		</layout>
+	</appender>
+	<!-- End of the VisualStudioOnlineBugAppender configuration-->
+	<root>
+		<level value="ALL"/>
+	</root>
+	<logger name="DebugLogger">
+		<level value="DEBUG"/>
+	</logger>
+	<logger name="MonitoringLogger">
+		<level value="INFO"/>
+	</logger>
+	<logger name="ExceptionLogger">
+		<level value="ERROR"/>
+		<appender-ref ref="OnlineBug"/>
+	</logger>
+</log4net>
+```
