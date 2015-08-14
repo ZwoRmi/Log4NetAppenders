@@ -1,5 +1,5 @@
 # Log4NetAppenders
-Synopsis
+##Synopsis
 
 This C# solution provides 2 Log4Net appenders.
 The first one is an appender to send mail through an Exchange Server.  
