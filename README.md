@@ -1,16 +1,16 @@
 
 # Log4NetAppenders
-##Synopsis
+## Synopsis
 
 This C# solution provides 2 Log4Net appenders.
 The first one is an appender to send mail through an Exchange Server.  
 The second one is an appender to log exceptions (or whatever) as a [Work Item (Bug) in Visual Studio Online](https://www.visualstudio.com/en-us/get-started/work/create-your-backlog-vs).
 
 ## SendMailExchange
-###Motivation
+### Motivation
 The configuration to do with the [SMTPAppender](https://logging.apache.org/log4net/release/sdk/log4net.Appender.SmtpAppender.html) provided by Log4Net is difficult when you have to send a mail through Exchange and a company proxy.  
 Obviously this appender is not as powerful as the SmtpAppender, but he logs correctly what you want by email.
-###Installation
+### Installation
 You have to configure your Log4Net.config with your own settings, and put SendMailExchange.dll in the folder where Log4Net.dll is.  
 Sample Log4Net.config :
 ```
@@ -39,10 +39,10 @@ Sample Log4Net.config :
 	</logger>
 </log4net>
 ```
-##StudioOnlineBugAppender
-###Motivation
+## StudioOnlineBugAppender
+### Motivation
 When you work with visual studio online, you may want to have backlog from your application bugs, in visual studio.
-###Installation
+### Installation
 You have to configure your Log4Net.config with your own settings, and put VisualStudioOnlineBugAppender.dll in the folder where Log4Net.dll is.  
 Sample Log4Net.config :
 ```
